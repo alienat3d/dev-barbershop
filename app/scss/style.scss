@@ -1,0 +1,63 @@
+@import "normalize.scss";
+
+// === Mixins ===
+@mixin #font1 {
+  font-family: #, sans-serif;
+}
+@mixin #font2 {
+  font-family: #, sans-serif;
+}
+// === / Mixins ===
+
+// === Common ===
+body {
+  @include $main-font;
+}
+.section-outer {
+  width: #px;
+  margin: 0 auto;
+}
+.section-inner {
+  width: #px;
+  margin: 0 auto;
+}
+// === / Common ===
+
+// === Common ===
+.section-outer {
+}
+.section-inner {
+  width: #px;
+  margin: 0 auto;
+}
+// === / Common ===
+
+// === Header ===
+.section-header {
+}
+// === / Header ===
+
+// === 1 ===
+.section-1 {
+}
+// === / 1 ===
+
+// === 2 ===
+.section-2 {
+}
+// === / 2 ===
+
+// === 3 ===
+.section-3 {
+}
+// === / 3 ===
+
+// === 4 ===
+.section-4 {
+}
+// === / 4 ===
+
+// === Footer ===
+.section-footer {
+}
+// === / Footer ===
